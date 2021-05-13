@@ -23,6 +23,7 @@ EFRPC.NET的通讯模块尽量选用RabbitMQ的RPC模式，WebSocket实现了服
 集群特性：
 
 以RabbitMQ通讯协议为例：
+
 客户端（Client）（生产者-》注册队列），服务端（Sever）（消费者-》消费队列），注册中心（RabbitMQ）
 
 服务的注册:以版本号和共享接口函数全名为队列名，注册队列
@@ -45,18 +46,31 @@ C#+Emit
 
 
 ## 软件架构
+### websocket协议
+
+![img2.jpg](img2.jpg)
+### RabbitMQ rpc协议
 ![img.png](img.png)
 
 ## 安装教程
+
 1.编译
-2.项目引用Impl和Protobuf包
+2.
+3.项目引用Impl和Protobuf包
 
 ## 使用说明
+
 EFRPC.NET实现：
+
 1.编写统一的Sharing动态库
+
+
 2，准备阶段
+
 客户端和服务端都需要实现MsgController
+
 服务端使用注解[EFRpcService(version ="v1.")]
+
 ```
  [EFRpcService(version ="v1.")]
     public class MsgServiceImpl: IMsgServer, MsgController
@@ -101,6 +115,7 @@ EFRPC.NET实现：
     }
 ```
 3，启动阶段
+
 服务端
 ```
  new ConsumerBootstrap<Program>().start(new RabbitMQOptionsFactory<RabbitMQMsgConsumerMap>());
