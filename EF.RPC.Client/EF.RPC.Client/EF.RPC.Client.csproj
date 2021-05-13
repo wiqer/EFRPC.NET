@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Example1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="6.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\EF.RPC.Impl.RabbitMQImpl\EF.RPC.Impl.RabbitMQImpl.csproj" />
+    <ProjectReference Include="..\..\EF.RPC.Protobuf\EF.RPC.Protobuf\EF.RPC.Protobuf.csproj" />
+    <ProjectReference Include="..\..\EF.RPC.Sharing\EF.RPC.Sharing.csproj" />
+  </ItemGroup>
+
+</Project>

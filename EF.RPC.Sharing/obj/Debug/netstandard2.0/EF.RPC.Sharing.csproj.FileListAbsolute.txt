@@ -1,0 +1,17 @@
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Sharing\bin\Debug\netstandard2.0\EF.RPC.Sharing.deps.json
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Sharing\bin\Debug\netstandard2.0\EF.RPC.Sharing.dll
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Sharing\bin\Debug\netstandard2.0\EF.RPC.Sharing.pdb
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.AssemblyInfoInputs.cache
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.AssemblyInfo.cs
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.csproj.CoreCompileInputs.cache
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.dll
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.pdb
+H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\bin\Debug\netstandard2.0\EF.RPC.Sharing.deps.json
+H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\bin\Debug\netstandard2.0\EF.RPC.Sharing.dll
+H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\bin\Debug\netstandard2.0\EF.RPC.Sharing.pdb
+H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.AssemblyInfoInputs.cache
+H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.AssemblyInfo.cs
+H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.csproj.CoreCompileInputs.cache
+H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.dll
+H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.pdb
+H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.csprojAssemblyReference.cache

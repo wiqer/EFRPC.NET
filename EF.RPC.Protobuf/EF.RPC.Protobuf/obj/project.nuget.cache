@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "RGnFiondY/b6l5fe7x945V9i2UDLSDr1rKIytJj1nDgBEZuqI+2X4QOck3/qf1t2Sjgd+GQ9OD4aZx6lAehr6g==",
+  "success": true,
+  "projectFilePath": "H:\\开发\\c#\\EFRPC.NET\\EF.RPC.Protobuf\\EF.RPC.Protobuf\\EF.RPC.Protobuf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lilan\\.nuget\\packages\\json.net\\1.0.25\\json.net.1.0.25.nupkg.sha512",
+    "C:\\Users\\lilan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\lilan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\lilan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

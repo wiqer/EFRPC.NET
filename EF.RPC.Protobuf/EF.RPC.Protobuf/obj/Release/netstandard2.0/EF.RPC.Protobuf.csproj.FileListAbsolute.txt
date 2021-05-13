@@ -1,0 +1,8 @@
+F:\Users\lilan\Source\Repos\EFRPC.NET\EF.RPC.Protobuf\EF.RPC.Protobuf\bin\Release\netstandard2.0\EF.RPC.Protobuf.deps.json
+F:\Users\lilan\Source\Repos\EFRPC.NET\EF.RPC.Protobuf\EF.RPC.Protobuf\bin\Release\netstandard2.0\EF.RPC.Protobuf.dll
+F:\Users\lilan\Source\Repos\EFRPC.NET\EF.RPC.Protobuf\EF.RPC.Protobuf\bin\Release\netstandard2.0\EF.RPC.Protobuf.pdb
+F:\Users\lilan\Source\Repos\EFRPC.NET\EF.RPC.Protobuf\EF.RPC.Protobuf\obj\Release\netstandard2.0\EF.RPC.Protobuf.AssemblyInfoInputs.cache
+F:\Users\lilan\Source\Repos\EFRPC.NET\EF.RPC.Protobuf\EF.RPC.Protobuf\obj\Release\netstandard2.0\EF.RPC.Protobuf.AssemblyInfo.cs
+F:\Users\lilan\Source\Repos\EFRPC.NET\EF.RPC.Protobuf\EF.RPC.Protobuf\obj\Release\netstandard2.0\EF.RPC.Protobuf.csproj.CoreCompileInputs.cache
+F:\Users\lilan\Source\Repos\EFRPC.NET\EF.RPC.Protobuf\EF.RPC.Protobuf\obj\Release\netstandard2.0\EF.RPC.Protobuf.dll
+F:\Users\lilan\Source\Repos\EFRPC.NET\EF.RPC.Protobuf\EF.RPC.Protobuf\obj\Release\netstandard2.0\EF.RPC.Protobuf.pdb

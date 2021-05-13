@@ -1,0 +1,14 @@
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\bin\Release\netstandard2.0\EF.RPC.Impl.WebSocketImpl.deps.json
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\bin\Release\netstandard2.0\EF.RPC.Impl.WebSocketImpl.dll
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\bin\Release\netstandard2.0\EF.RPC.Impl.WebSocketImpl.pdb
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\bin\Release\netstandard2.0\EF.RPC.Impl.dll
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\bin\Release\netstandard2.0\EF.RPC.Protobuf.dll
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\bin\Release\netstandard2.0\EF.RPC.Impl.pdb
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\bin\Release\netstandard2.0\EF.RPC.Protobuf.pdb
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\obj\Release\netstandard2.0\EF.RPC.Impl.WebSocketImpl.csprojAssemblyReference.cache
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\obj\Release\netstandard2.0\EF.RPC.Impl.WebSocketImpl.AssemblyInfoInputs.cache
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\obj\Release\netstandard2.0\EF.RPC.Impl.WebSocketImpl.AssemblyInfo.cs
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\obj\Release\netstandard2.0\EF.RPC.Impl.WebSocketImpl.csproj.CoreCompileInputs.cache
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\obj\Release\netstandard2.0\EF.RPC.Impl.WebSocketImpl.csproj.CopyComplete
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\obj\Release\netstandard2.0\EF.RPC.Impl.WebSocketImpl.dll
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\obj\Release\netstandard2.0\EF.RPC.Impl.WebSocketImpl.pdb

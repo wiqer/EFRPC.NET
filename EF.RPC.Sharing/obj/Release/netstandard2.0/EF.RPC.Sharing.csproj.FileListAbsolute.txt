@@ -1,0 +1,8 @@
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Sharing\bin\Release\netstandard2.0\EF.RPC.Sharing.deps.json
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Sharing\bin\Release\netstandard2.0\EF.RPC.Sharing.dll
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Sharing\bin\Release\netstandard2.0\EF.RPC.Sharing.pdb
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Sharing\obj\Release\netstandard2.0\EF.RPC.Sharing.AssemblyInfoInputs.cache
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Sharing\obj\Release\netstandard2.0\EF.RPC.Sharing.AssemblyInfo.cs
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Sharing\obj\Release\netstandard2.0\EF.RPC.Sharing.csproj.CoreCompileInputs.cache
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Sharing\obj\Release\netstandard2.0\EF.RPC.Sharing.dll
+F:\Users\lilan\Source\Repos\EFRPC.NET\EFRPC.NET\EF.RPC.Sharing\obj\Release\netstandard2.0\EF.RPC.Sharing.pdb
