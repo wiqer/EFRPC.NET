@@ -3,7 +3,7 @@
 ## 介绍
 EFRPC.NET是EF家族的一员，本人追求简单高效，所以EF的意思是easyFast。RPC的意思是的远程服务调用称呼。
 
-####EFRPC.NET功能介绍
+#### EFRPC.NET功能介绍
 EFRPC.NET是一种C#全方位适配的简化服务调用、解耦、轻量级的RPC框架
 
 EFRPC.NET实现了注解驱动的服务引用和服务提供的框架
@@ -14,9 +14,9 @@ EFRPC.NET具有Spring一样IOC容器ID，AOP
 
 EFRPC.NET的通讯模块尽量选用RabbitMQ的RPC模式，WebSocket实现了服务端后选型被放弃，客户端放弃了维护
 
-#注意！！！RabbitMQ的RPC模式并未实现到方法级别，与GRPC和Dubbo等服务调用框架相比完全不是一个量级上的，不要取表面意思理解
+# 注意！！！RabbitMQ的RPC模式并未实现到方法级别，与GRPC和Dubbo等服务调用框架相比完全不是一个量级上的，不要取表面意思理解
 
-####EFRPC.NET架构简介
+#### EFRPC.NET架构简介
 
 分布式事务整体角色分为客户端（Client），服务端（Sever），注册中心不一定存在（使用带缓存的通信协议会有，中间件的服务天然成为了注册中心）
 
@@ -31,7 +31,7 @@ EFRPC.NET的通讯模块尽量选用RabbitMQ的RPC模式，WebSocket实现了服
 
 服务的负载均衡：RabbitMQ自身来管理
 
-####EFRPC.NET开发框架
+#### EFRPC.NET开发框架
 
 C#+Emit
 
@@ -109,14 +109,22 @@ EFRPC.NET实现：
 ```
  MsgClientImpl msgClientImpl= new ProducerBootstrap<Program>().start(new RabbitMQOptionsFactory<RabbitMQMsgProducerMap>()).getController<MsgClientImpl>();
 ```
-##实现原理
-####coordinator分布式事务
+## 实现原理
+#### EFRPC.NET
 
 1，基于字节码的动态代理Emit（IL字节码的生成、执行框架），类似java的cglib；针对客户端实现服务代理类
 
 2，基于反射实现动态代理，将服务端地方法切入协议实现的方法中，使用实现协议的类，代理服务；针对所有实现了MsgController的代理类
 
 3.IOC容器：依据Program或者其他入口类扫描向下引用方法区，反射原理，获取实现MsgController接口的实体类.class，通过1,2 生成代理对象添加到容器中
+
+ 
+ 一级缓存：DynamicProxyFactory，生产单例和缓存单例
+ 
+ 二级缓存：LinkMap+MsgMathsInfoFactory
+ 
+ 没有代理对象工厂的使用场景和需求，所以没有三级缓存
+ 
 
 4.DI部分，IOC容器初始化类完成后，扫描实现了MsgController接口的实体类，中标记了EFRpcAutowired属性，依据属性类型去IOC找实例化的对象，注入属性中
 
@@ -206,7 +214,9 @@ service返回值以客户端类似的方式传入临时队列。
 
 ```
 6，同步器：参考了java-》J.U.C中的Synchronizer，主要用来同步客户端的请求调用
+
 框架使用  public ConcurrentDictionary<string, UnsafeSynchronizer> uscd;缓存请求id与Synchronizer的映射
+
 使用AQS类似的接口同步挂起和中断释放请求线程，保证开发者使用接口的隔离性
 ```
  public abstract class Synchronizer
@@ -332,11 +342,7 @@ service返回值以客户端类似的方式传入临时队列。
     /// <typeparam name="V"></typeparam>
     public class LinkMap<K, V> : MapInterface<K, V>
  ```
- 9,IOC :
- 一级缓存：DynamicProxyFactory，生产单例和缓存单例
- 二级缓存：LinkMap+MsgMathsInfoFactory
- 没有代理对象工厂的使用场景和需求，所以没有三级缓存
- 10，序列化框架newtonsoft.json
+ 9，序列化框架newtonsoft.json
 ## 致敬
 
 1，阿里的Dubbo的开发参与者
