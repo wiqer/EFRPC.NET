@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+using EF.RPC.Impl.annotation;
 namespace EF.RPC.Sharing
 {
     /// <summary>
@@ -13,5 +13,8 @@ namespace EF.RPC.Sharing
         GetMsgSumReply GetSum(GetMsgNumRequest req);
         GetMsgMulReply GetMul(GetMsgNumRequest req);
         void Conversations();
+
+        [EFRpcMethod(mark = "int#i")]
+        void Conversations(int i);
     }
 }

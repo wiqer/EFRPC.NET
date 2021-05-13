@@ -8,7 +8,7 @@ using System.Text;
 
 namespace EF.RPC.Server
 {
-    [EFRpcService(version ="v1.")]
+    [EFRpcService(version ="v1")]
     public class MsgServiceImpl: IMsgServer, MsgController
     {
         public  GetMsgSumReply GetSum(GetMsgNumRequest request)
@@ -39,6 +39,11 @@ namespace EF.RPC.Server
         }
 
         public void Conversations()
+        {
+            throw new NotImplementedException();
+        }
+       
+        public void Conversations(int i)
         {
             throw new NotImplementedException();
         }

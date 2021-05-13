@@ -4,4 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EF.RPC.Impl\EF.RPC.Impl.csproj" />
+  </ItemGroup>
+
 </Project>

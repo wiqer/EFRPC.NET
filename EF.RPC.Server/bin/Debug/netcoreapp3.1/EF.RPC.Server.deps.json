@@ -194,6 +194,9 @@
         }
       },
       "EF.RPC.Sharing/1.0.0": {
+        "dependencies": {
+          "EF.RPC.Impl": "1.0.0"
+        },
         "runtime": {
           "EF.RPC.Sharing.dll": {}
         }

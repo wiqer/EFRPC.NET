@@ -1,11 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "S9VMT0jDKrjavvfpAOxLNWxUvPpXj7QYrhGzwEnv0VYq4LthUdcQ9u8e0OsMq2GeEBfwwD/cgRcwbhvirDOJMg==",
+  "dgSpecHash": "QIgNfhPWA3UdfvgSHKva7bKlg5JvcHFendslEjLiykEo/x/hzY9jUQwsR4zBZXmAZ8foKcTl5u1X1a1yfzN78w==",
   "success": true,
   "projectFilePath": "H:\\开发\\c#\\EFRPC.NET\\EF.RPC.Sharing\\EF.RPC.Sharing.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lilan\\.nuget\\packages\\json.net\\1.0.25\\json.net.1.0.25.nupkg.sha512",
     "C:\\Users\\lilan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\lilan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\lilan\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\lilan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\lilan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\lilan\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\lilan\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\lilan\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\lilan\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
+    "C:\\Users\\lilan\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\lilan\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\lilan\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\lilan\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

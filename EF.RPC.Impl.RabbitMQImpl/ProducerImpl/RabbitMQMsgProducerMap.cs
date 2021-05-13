@@ -123,17 +123,31 @@ namespace EF.RPC.Impl.RabbitMQImpl.ProducerImpl
                 {
                    
                     MethodInfo md = info[i];
-
+        
                     //方法名
                     string mothodName = md.Name;
-                    Console.WriteLine($"类名:{ this.className}, {"方法名：" + md.Name}");
+
                     //参数集合
                     ParameterInfo[] paramInfos = md.GetParameters();
                     if (md.Name.Equals("ToString") || md.Name.Equals("Equals") || md.Name.Equals("GetHashCode") || md.Name.Equals("GetType")) continue;
+                    //获取标识注解
+                    IEnumerable<CustomAttributeData> attributes = md.CustomAttributes.Where(Attribute => (!typeof(EFRpcMethodAttribute).Equals(Attribute.GetType())));
                     RabbitMQMsgFun mfs = new RabbitMQMsgFun();
                     mfs.Name = md.Name;
+                    foreach (var a in attributes)
+                    {
+                        foreach (var kv in a.NamedArguments)
+                        {
+                            if (kv.MemberName.Equals("mark"))
+                            {
+                                mfs.Name += kv.TypedValue.Value.ToString();
+                            }
+                        }
+                    }
+                    Console.WriteLine($"类名:{ this.className}, {"方法名：" + mfs.Name}");
                     mfs.rep = md.ReturnType;
                     mfs.FullName = version + "." + interfaceFullName + "." + mfs.Name;
+
                     mfs.methodInfo = md;
                     mfs.ReqFullName = version + "." + FullName + "." + mfs.Name;
                     this.put(md.Name, mfs);

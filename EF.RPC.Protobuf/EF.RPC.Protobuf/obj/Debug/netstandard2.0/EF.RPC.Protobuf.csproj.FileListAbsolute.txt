@@ -14,4 +14,4 @@ H:\开发\c#\EFRPC.NET\EF.RPC.Protobuf\EF.RPC.Protobuf\obj\Debug\netstandard2.0\
 H:\开发\c#\EFRPC.NET\EF.RPC.Protobuf\EF.RPC.Protobuf\obj\Debug\netstandard2.0\EF.RPC.Protobuf.csproj.CoreCompileInputs.cache
 H:\开发\c#\EFRPC.NET\EF.RPC.Protobuf\EF.RPC.Protobuf\obj\Debug\netstandard2.0\EF.RPC.Protobuf.dll
 H:\开发\c#\EFRPC.NET\EF.RPC.Protobuf\EF.RPC.Protobuf\obj\Debug\netstandard2.0\EF.RPC.Protobuf.pdb
-H:\开发\c#\EFRPC.NET\EF.RPC.Protobuf\EF.RPC.Protobuf\obj\Debug\netstandard2.0\EF.RPC.Protobuf.csprojAssemblyReference.cache
+H:\开发\c#\EFRPC.NET\EF.RPC.Protobuf\EF.RPC.Protobuf\obj\Debug\netstandard2.0\EF.RPC.Protobuf.csproj.AssemblyReference.cache

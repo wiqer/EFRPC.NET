@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RGnFiondY/b6l5fe7x945V9i2UDLSDr1rKIytJj1nDgBEZuqI+2X4QOck3/qf1t2Sjgd+GQ9OD4aZx6lAehr6g==",
+  "dgSpecHash": "cCSSQzw2vRYljSTkH1xZQs5230lLAnUAiNt6dzuaZ1ur/Vo9wtCGfFZHnYEvaecOX5rBNOvLGfZGDtIq9ItSRA==",
   "success": true,
   "projectFilePath": "H:\\开发\\c#\\EFRPC.NET\\EF.RPC.Protobuf\\EF.RPC.Protobuf\\EF.RPC.Protobuf.csproj",
   "expectedPackageFiles": [

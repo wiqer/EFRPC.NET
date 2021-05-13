@@ -30,6 +30,11 @@ namespace EF.RPC.Client
         public int GetSum(int num1, int num2)
         {
             return ServiceAutoUpdate.GetSum(new GetMsgNumRequest() { Num1 = num1, Num2 = num2 }).Sum;
+
+        }
+        public void Conversations(int i)
+        {
+            ServiceAutoUpdate.Conversations(i);
         }
     }
 }

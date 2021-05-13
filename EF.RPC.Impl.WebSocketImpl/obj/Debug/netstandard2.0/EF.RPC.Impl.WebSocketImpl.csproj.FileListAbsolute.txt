@@ -19,10 +19,10 @@ H:\开发\c#\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\bin\Debug\netstandard2.0\EF.RPC
 H:\开发\c#\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\bin\Debug\netstandard2.0\EF.RPC.Protobuf.dll
 H:\开发\c#\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\bin\Debug\netstandard2.0\EF.RPC.Impl.pdb
 H:\开发\c#\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\bin\Debug\netstandard2.0\EF.RPC.Protobuf.pdb
-H:\开发\c#\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\obj\Debug\netstandard2.0\EF.RPC.Impl.WebSocketImpl.csprojAssemblyReference.cache
 H:\开发\c#\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\obj\Debug\netstandard2.0\EF.RPC.Impl.WebSocketImpl.AssemblyInfoInputs.cache
 H:\开发\c#\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\obj\Debug\netstandard2.0\EF.RPC.Impl.WebSocketImpl.AssemblyInfo.cs
 H:\开发\c#\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\obj\Debug\netstandard2.0\EF.RPC.Impl.WebSocketImpl.csproj.CoreCompileInputs.cache
 H:\开发\c#\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\obj\Debug\netstandard2.0\EF.RPC.Impl.WebSocketImpl.csproj.CopyComplete
 H:\开发\c#\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\obj\Debug\netstandard2.0\EF.RPC.Impl.WebSocketImpl.dll
 H:\开发\c#\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\obj\Debug\netstandard2.0\EF.RPC.Impl.WebSocketImpl.pdb
+H:\开发\c#\EFRPC.NET\EF.RPC.Impl.WebSocketImpl\obj\Debug\netstandard2.0\EF.RPC.Impl.WebSocketImpl.csproj.AssemblyReference.cache

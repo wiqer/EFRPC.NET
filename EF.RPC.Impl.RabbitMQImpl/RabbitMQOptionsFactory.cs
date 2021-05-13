@@ -32,7 +32,7 @@ namespace EF.RPC.Impl.RabbitMQImpl
         //
         // 摘要:
         //     Default virtual host (value: "/").
-        public const string DefaultVHost = "/";
+        public const string DefaultVHost = "/efrpc";
         //
         // 摘要:
         //     Default value for connection attempt timeout.

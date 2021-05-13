@@ -14,4 +14,9 @@ H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.As
 H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.csproj.CoreCompileInputs.cache
 H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.dll
 H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.pdb
-H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.csprojAssemblyReference.cache
+H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.csproj.AssemblyReference.cache
+H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\bin\Debug\netstandard2.0\EF.RPC.Impl.dll
+H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\bin\Debug\netstandard2.0\EF.RPC.Protobuf.dll
+H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\bin\Debug\netstandard2.0\EF.RPC.Impl.pdb
+H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\bin\Debug\netstandard2.0\EF.RPC.Protobuf.pdb
+H:\开发\c#\EFRPC.NET\EF.RPC.Sharing\obj\Debug\netstandard2.0\EF.RPC.Sharing.csproj.CopyComplete

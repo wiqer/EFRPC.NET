@@ -162,8 +162,46 @@ namespace EF.RPC.Impl.RabbitMQImpl
                         //参数集合
                         ParameterInfo[] paramInfos = md.GetParameters();
                         if (md.Name.Equals("ToString") || md.Name.Equals("Equals") || md.Name.Equals("GetHashCode") || md.Name.Equals("GetType")) continue;
+                        //获取标识注解
+                        MethodInfo interfaceMethod = null;
+                        MethodInfo[] methodInfos = interfaces[k].GetMethods();
+                        foreach (var method in methodInfos) {
+                            if ((method.Name.Equals(md.Name)))
+                            {
+                                ParameterInfo[] parameterInfos= md.GetParameters();
+                                if (method.GetParameters().Length == parameterInfos.Length)
+                                {
+                                    interfaceMethod = method;
+                                    for (int index = 0; index < method.GetParameters().Length; index++)
+                                    {
+                                        if (!method.GetParameters()[index].GetType().Equals(parameterInfos[index].GetType()))
+                                        {
+                                            interfaceMethod = null;
+                                            break;
+                                        }
+                                    }
+                                    if (null != interfaceMethod) { break; }
+                                }
+                            }
+
+                        }
+                        
+                            
+                        
+                        IEnumerable<CustomAttributeData> attributes = interfaceMethod.CustomAttributes.Where(Attribute => (!typeof(EFRpcMethodAttribute).Equals(Attribute.GetType())));
                         MsgFun mfs = new MsgFun();
                         mfs.Name = md.Name;
+                        foreach (var a in attributes)
+                        {
+                            foreach (var kv in a.NamedArguments)
+                            {
+                                if (kv.MemberName.Equals("mark"))
+                                {
+                                    mfs.Name+= kv.TypedValue.Value.ToString();
+                                }
+                            }
+                        }
+
                         mfs.rep = md.ReturnType;
                         mfs.methodInfo = md;
                         this.put(md.Name, mfs);
@@ -174,8 +212,9 @@ namespace EF.RPC.Impl.RabbitMQImpl
                             mfs.reqs[j] = parameterInfo.ParameterType;
                             Console.WriteLine($"类名:{ t.Name}, {"方法名：" + md.Name},{"入参" + j+1 + ":" + parameterInfo.ParameterType}");
                         }
+                        mfs.FullName = version + "." + interfaceFullName + "." + mfs.Name;
                         IModel channel = conection.CreateModel();
-                        channel.QueueDeclare(queue: this.version+this.interfaceFullName + "." + md.Name, durable: false,
+                        channel.QueueDeclare(queue: mfs.FullName, durable: false,
                             exclusive: false, autoDelete: false, arguments: null);
                         var consumer = new EventingBasicConsumer(channel);
                         Console.WriteLine("[*] Waiting for message.");
@@ -199,7 +238,7 @@ namespace EF.RPC.Impl.RabbitMQImpl
                                 object rep = mfs.methodInfo.Invoke(this.ControllerObj, objs);
                                 if (md.ReturnType != typeof(void))
                                 {
-                                    channel.BasicPublish(exchange: "", routingKey: properties.ReplyTo,
+                                    channel.BasicPublish(exchange: "efrpc", routingKey: properties.ReplyTo,
                                     basicProperties: replyProerties, body: this.serializer.SerializeBytes(superMsg.setReq(rep)));//ProtobufSerializer.SerializeBytes(mfs.rep,rep)
                                 }
                             }
@@ -207,7 +246,7 @@ namespace EF.RPC.Impl.RabbitMQImpl
                             // Console.WriteLine($"Return result: {"消息：" + message}");
 
                         };
-                        channel.BasicConsume(queue: this.version+this.interfaceFullName + "." + md.Name, autoAck: false, consumer: consumer);
+                        channel.BasicConsume(queue: mfs.FullName, autoAck: false, consumer: consumer);
                         Console.WriteLine($"类名:{ t.Name}, {"方法名：" + md.Name},{"返回值" + ":" + md.ReturnType}");
 
                     }

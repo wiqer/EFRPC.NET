@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Xlu9hd1d5WPW7R2KwW4UT1RhWlPCKHJH200bWNK32eeORTOwtJPA7nAoWVkBNi+ZA4YECfMg5PLfOVvnffc6mw==",
+  "dgSpecHash": "z8QXS1pAFy9td5gjCGclJlmxKzHF518r1yeXG7Un7TYCeRy0xeq45zW/zI0PTEBz/A2l6X0lUPKIM5ldmyy2hQ==",
   "success": true,
   "projectFilePath": "H:\\开发\\c#\\EFRPC.NET\\EF.RPC.Impl.WebSocketImpl\\EF.RPC.Impl.WebSocketImpl.csproj",
   "expectedPackageFiles": [

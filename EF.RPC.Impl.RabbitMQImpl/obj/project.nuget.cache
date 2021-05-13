@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QkpF9/Fj3Tw0E1fvBMNr7yv9nvw8FI95s8RI5sfTgTR5RLAeFWOXQ+qvhqGUfPZyZt+CZQWc4DqjLur5mGzsDQ==",
+  "dgSpecHash": "6p2emYom7hojGxzaW6/iI9G+/C2uczNvup5G7Reh5VSUWzFggqjX72Of73D6NKeUckusjfl434v5H0nyJJyRog==",
   "success": true,
   "projectFilePath": "H:\\开发\\c#\\EFRPC.NET\\EF.RPC.Impl.RabbitMQImpl\\EF.RPC.Impl.RabbitMQImpl.csproj",
   "expectedPackageFiles": [
