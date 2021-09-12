@@ -366,6 +366,12 @@ service返回值以客户端类似的方式传入临时队列。
     public class LinkMap<K, V> : MapInterface<K, V>
  ```
  9，序列化框架newtonsoft.json
+ 
+## 演示
+
+![clientDemo.jpg](clientDemo.jpg)
+
+
 ## 致敬
 
 1，阿里的Dubbo的开发参与者
