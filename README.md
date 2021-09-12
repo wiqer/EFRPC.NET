@@ -127,6 +127,13 @@ EFRPC.NET实现：
 ```
 ## 实现原理
 #### EFRPC.NET
+<<<<<<< HEAD
+=======
+
+整体实现的流程图：
+
+![img3.jpg](img3.jpg)
+>>>>>>> 652ab0de8efe4d3e837a905caccdf97097b61de9
 
 1，基于字节码的动态代理Emit（IL字节码的生成、执行框架），类似java的cglib；针对客户端实现服务代理类
 
